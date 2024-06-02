@@ -206,3 +206,5 @@ bindsym $mod+p exec flameshot gui
 # disable touchpad
 exec --no-startup-id xinput disable "DELL0816:00 044E:121F Touchpad"
 
+# nightlight:
+exec --no-startup-id nightlight 21:00 23:59 30 >/dev/null 2>&1 &
