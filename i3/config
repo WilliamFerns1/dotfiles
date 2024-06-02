@@ -192,3 +192,10 @@ bar {
 gaps inner 10 
 gaps outer 5 
 smart_gaps on
+
+# Autostart applications
+exec --no-startup-id /usr/bin/espanso start
+
+# clipboard tool
+exec --no-startup-id greenclip daemon>/dev/null
+bindsym $mod+c exec --no-startup-id rofi -modi "clipboard:greenclip print" -show clipboard
