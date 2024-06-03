@@ -213,3 +213,5 @@ exec --no-startup-id nightlight 21:00 23:59 30 >/dev/null 2>&1 &
 # remove timeout
 exec xset dpms 0 0 1200
 exec_always xset dpms 0 0 1200
+
+bindsym $mod+Shift+v exec pavucontrol
