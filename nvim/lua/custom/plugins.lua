@@ -81,11 +81,11 @@ local plugins = {
       },
     },
   },
-  {
-    "zbirenbaum/copilot.lua",
-    event = "InsertEnter",
-    opts = overrides.copilot,
-  },
+  -- {
+  --   "zbirenbaum/copilot.lua",
+  --   event = "InsertEnter",
+  --   opts = overrides.copilot,
+  -- },
   {
     'christoomey/vim-tmux-navigator',
     lazy = false,
